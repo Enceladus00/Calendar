@@ -31,13 +31,6 @@ if ((month == 12) && (day == 31)) {
     new_year = year + 1; }
 /*The program knows every single correctly calculated values at this point. Now we need it to convert
   the bold format to formal calendar format (5 2 2022 -> 06.02.2022)*/
-if (day < 9 && month < 9)
-    printf("The next day of 0%d.0%d.%d is 0%d.0%d.%d", day, month, year, new_day, new_month, new_year);
-else if (day < 9 && month = 9)
-    printf("The next day of 0%d.0%d.%d is 0%d.%d.%d", day, month, year, new_day, new_month, new_year);
-else if (day < 9 && month > 9)
-    printf("The next day of 0%d.%d.%d is 0%d.%d.%d", day, month, year, new_day, new_month, new_year);
-else if (day = 9 &&)
     printf("The next day of 0%d.%d.%d is %d.%d.%d", day, month, year, new_day, new_month, new_year);
 }
 }
